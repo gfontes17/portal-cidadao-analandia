@@ -29,3 +29,10 @@ O endereço direto do Portal da Transparência da Prefeitura ainda precisa ser c
 
 ## Publicação gratuita
 É possível publicar o protótipo estático usando GitHub Pages ou Cloudflare Pages. O projeto não utiliza banco de dados nem coleta dados pessoais nesta etapa.
+
+
+## Identidade visual v0.4
+- Vermelho intenso, creme, preto e amarelo.
+- Inspiração em cartazes construtivistas históricos, com formas geométricas e chamadas gráficas.
+- Emblema estilizado inspirado em símbolos históricos de movimentos operários.
+- Mantidos os avisos de projeto independente e de dados financeiros ainda não verificados.
