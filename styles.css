@@ -83,3 +83,12 @@ body{background:#FBF7ED}
 .money-back{background:#C8102E;color:#fff;border:2px solid #191919;border-radius:3px;box-shadow:4px 4px 0 #191919}
 .poster-ribbon{display:inline-block;background:#191919;color:#F5C542;padding:5px 10px;margin:0 0 15px;font-size:11px;font-weight:900;letter-spacing:1.5px;transform:skew(-5deg);border-left:5px solid #F5C542}
 @media(max-width:680px){.hero:before{opacity:.35}.area-card{box-shadow:2px 2px 0 rgba(25,25,25,.12)}}
+
+/* Cartaz histórico como elemento de fundo da abertura */
+.simple-hero{isolation:isolate;background-color:#C8102E}
+.simple-hero::before{content:"";position:absolute;z-index:-1;left:auto;right:3%;top:50%;width:min(36%,390px);height:94%;transform:translateY(-50%);background:url("assets/cartaz-solidariedade.png") center/contain no-repeat;opacity:.82;mix-blend-mode:normal;pointer-events:none}
+.simple-hero::after{content:"";position:absolute;z-index:-1;left:0;top:0;right:0;bottom:0;width:auto;height:auto;border:0;border-radius:0;transform:none;background:linear-gradient(90deg,#C8102E 0%,#C8102E 42%,rgba(200,16,46,.82) 58%,rgba(200,16,46,.12) 100%);pointer-events:none}
+.simple-hero .simple-hero-inner{position:relative;z-index:1}
+.brand-mark{overflow:visible}
+.brand-mark svg{width:34px;height:34px}
+@media(max-width:680px){.simple-hero::before{right:-5%;top:56%;width:56%;height:72%;opacity:.22}.simple-hero::after{background:linear-gradient(90deg,#C8102E 0%,rgba(200,16,46,.94) 55%,rgba(200,16,46,.65) 100%)}.simple-hero .hero-copy{position:relative;z-index:2}}
